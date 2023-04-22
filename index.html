@@ -1,36 +1,52 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Professional Website</title>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOD</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="responsive.css">
+    <!-- <link rel="stylesheet" href="reset.css"> buat reset css -->
+    <link rel="shortcut icon" type="image/jpg" href="./img/apple-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Bagian header-->
     <header>
-      <div class="container">
-        <h1>Professional Website</h1>
-        <nav>
-          <ul>
-            <li><a href="about.html">About Me</a></li>
-          </ul>
-        </nav>
-      </div>
+        <div class="header-wrapper">
+            <span class="menu-logo hp-viewport fas fa-ellipsis-h"></span>
+            <ul class="header-list">
+                
+                <li class="header-content hp-viewport apple-header"><a href="https://www.apple.com/"><img class="logo" src="./img/apple-logo.png"></a></li>
+
+                <li class="header-content hp-viewport-hide"><a href="about.html">About</a></li>
+                <li class="header-content hp-viewport-hide"><a href="Patients.html">Patients</a></li>
+                <li class="header-content hp-viewport-hide"><a href="Doctors.html">Doctors</a></li>
+                <li class="header-content hp-viewport-hide"><a href="Team.html">Team</a></li>
+                <li class="header-content hp-viewport-hide"><a href="uploads.html">Upload</a></li>
+
+                <li class="header-content hp-viewport-hide"><a href="Testimonies.html">Testimonies</a></li>
+
+
+                <!-- masukkin input search -->
+                
+                <li class="header-content hp-viewport-hide fa-searchs"><a href="#" class="fas fa-search"></a></li>
+                <input class="search" placeholder="search" type="search" name="">
+                <!-- masukkin input search -->
+
+                <li class="header-content hp-viewport header-shoping"><a href="https://www.apple.com/us/shop/goto/bag" class="fas fa-shopping-bag"></a></li>
+            </ul>
+
+        </div>
+    </div>
     </header>
-    <main>
-      <div class="container">
-        <h2>Upload a File</h2>
-        <form action="upload.php" method="post" enctype="multipart/form-data">
-          <input type="file" name="fileToUpload" id="fileToUpload">
-          <input type="submit" value="Upload" name="submit">
-        </form>
-      </div>
-    </main>
-    <section id="about">
-      <div class="container">
-        <h2>About Me</h2>
-        <p>Hello, my name is [Your Name] and I am a [Your Profession]. I have [Years of Experience] years of experience in [Your Field] and have worked with a variety of clients and projects. My goal is to [Your Goal or Mission].</p>
-        <p>If you have any questions or would like to work with me, please feel free to get in touch.</p>
-        <a href="mailto:yourname@example.com">Contact Me</a>
-      </div>
-    </section>
-  </body>
-</html>
+    <footer>
+        <p>&copy; 2023 Your Company Name. All Rights Reserved.</p>
+    </footer>
